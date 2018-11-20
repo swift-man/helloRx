@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		282D181FB1DCBF60A96FCD04 /* Pods_HelloRxUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130B20A19A406A3350F48266 /* Pods_HelloRxUITests.framework */; };
+		2D1FE65A21A42D6500EC8CEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1FE65921A42D6500EC8CEC /* AppDelegate.swift */; };
+		2D1FE65C21A42D6500EC8CEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1FE65B21A42D6500EC8CEC /* ViewController.swift */; };
+		2D1FE65F21A42D6500EC8CEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1FE65D21A42D6500EC8CEC /* Main.storyboard */; };
+		2D1FE66121A42D6700EC8CEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D1FE66021A42D6700EC8CEC /* Assets.xcassets */; };
+		2D1FE66421A42D6700EC8CEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1FE66221A42D6700EC8CEC /* LaunchScreen.storyboard */; };
+		2D1FE66F21A42D6700EC8CEC /* HelloRxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1FE66E21A42D6700EC8CEC /* HelloRxTests.swift */; };
+		2D1FE67A21A42D6700EC8CEC /* HelloRxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1FE67921A42D6700EC8CEC /* HelloRxUITests.swift */; };
+		5E33D953E302042B45B6BA99 /* Pods_HelloRxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE947325368A922B1D1B01DB /* Pods_HelloRxTests.framework */; };
+		95C162CE1317D6E0D32064F1 /* Pods_HelloRx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EEEF5B73DF48CD593BE3362 /* Pods_HelloRx.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D1FE66B21A42D6700EC8CEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D1FE64E21A42D6500EC8CEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D1FE65521A42D6500EC8CEC;
+			remoteInfo = HelloRx;
+		};
+		2D1FE67621A42D6700EC8CEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D1FE64E21A42D6500EC8CEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D1FE65521A42D6500EC8CEC;
+			remoteInfo = HelloRx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03DDA9EF665139FF08198E80 /* Pods-HelloRxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRxUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloRxUITests/Pods-HelloRxUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		130B20A19A406A3350F48266 /* Pods_HelloRxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloRxUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D1FE65621A42D6500EC8CEC /* HelloRx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloRx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D1FE65921A42D6500EC8CEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D1FE65B21A42D6500EC8CEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D1FE65E21A42D6500EC8CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D1FE66021A42D6700EC8CEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D1FE66321A42D6700EC8CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D1FE66521A42D6700EC8CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D1FE66A21A42D6700EC8CEC /* HelloRxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloRxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D1FE66E21A42D6700EC8CEC /* HelloRxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloRxTests.swift; sourceTree = "<group>"; };
+		2D1FE67021A42D6700EC8CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D1FE67521A42D6700EC8CEC /* HelloRxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloRxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D1FE67921A42D6700EC8CEC /* HelloRxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloRxUITests.swift; sourceTree = "<group>"; };
+		2D1FE67B21A42D6700EC8CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EEEF5B73DF48CD593BE3362 /* Pods_HelloRx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloRx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9452A4B151C396165F759AA6 /* Pods-HelloRx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRx.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloRx/Pods-HelloRx.release.xcconfig"; sourceTree = "<group>"; };
+		AB3BAA4B8F2CFBD8B8331BD5 /* Pods-HelloRxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRxUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloRxUITests/Pods-HelloRxUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CE55614C2A54D95D9B6C1B82 /* Pods-HelloRxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRxTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloRxTests/Pods-HelloRxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE947325368A922B1D1B01DB /* Pods_HelloRxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloRxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F4541D5C1289C97B9DDC07 /* Pods-HelloRx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRx.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloRx/Pods-HelloRx.debug.xcconfig"; sourceTree = "<group>"; };
+		E710E121677B3067E1236DAC /* Pods-HelloRxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRxTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloRxTests/Pods-HelloRxTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D1FE65321A42D6500EC8CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C162CE1317D6E0D32064F1 /* Pods_HelloRx.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D1FE66721A42D6700EC8CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E33D953E302042B45B6BA99 /* Pods_HelloRxTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D1FE67221A42D6700EC8CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282D181FB1DCBF60A96FCD04 /* Pods_HelloRxUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		104DF7202A4840AB14040479 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EEEF5B73DF48CD593BE3362 /* Pods_HelloRx.framework */,
+				CE947325368A922B1D1B01DB /* Pods_HelloRxTests.framework */,
+				130B20A19A406A3350F48266 /* Pods_HelloRxUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D1FE64D21A42D6500EC8CEC = {
+			isa = PBXGroup;
+			children = (
+				2D1FE65821A42D6500EC8CEC /* HelloRx */,
+				2D1FE66D21A42D6700EC8CEC /* HelloRxTests */,
+				2D1FE67821A42D6700EC8CEC /* HelloRxUITests */,
+				2D1FE65721A42D6500EC8CEC /* Products */,
+				C4A0EE7525494758603AEB81 /* Pods */,
+				104DF7202A4840AB14040479 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2D1FE65721A42D6500EC8CEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D1FE65621A42D6500EC8CEC /* HelloRx.app */,
+				2D1FE66A21A42D6700EC8CEC /* HelloRxTests.xctest */,
+				2D1FE67521A42D6700EC8CEC /* HelloRxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D1FE65821A42D6500EC8CEC /* HelloRx */ = {
+			isa = PBXGroup;
+			children = (
+				2D1FE65921A42D6500EC8CEC /* AppDelegate.swift */,
+				2D1FE65B21A42D6500EC8CEC /* ViewController.swift */,
+				2D1FE65D21A42D6500EC8CEC /* Main.storyboard */,
+				2D1FE66021A42D6700EC8CEC /* Assets.xcassets */,
+				2D1FE66221A42D6700EC8CEC /* LaunchScreen.storyboard */,
+				2D1FE66521A42D6700EC8CEC /* Info.plist */,
+			);
+			path = HelloRx;
+			sourceTree = "<group>";
+		};
+		2D1FE66D21A42D6700EC8CEC /* HelloRxTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D1FE66E21A42D6700EC8CEC /* HelloRxTests.swift */,
+				2D1FE67021A42D6700EC8CEC /* Info.plist */,
+			);
+			path = HelloRxTests;
+			sourceTree = "<group>";
+		};
+		2D1FE67821A42D6700EC8CEC /* HelloRxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D1FE67921A42D6700EC8CEC /* HelloRxUITests.swift */,
+				2D1FE67B21A42D6700EC8CEC /* Info.plist */,
+			);
+			path = HelloRxUITests;
+			sourceTree = "<group>";
+		};
+		C4A0EE7525494758603AEB81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0F4541D5C1289C97B9DDC07 /* Pods-HelloRx.debug.xcconfig */,
+				9452A4B151C396165F759AA6 /* Pods-HelloRx.release.xcconfig */,
+				CE55614C2A54D95D9B6C1B82 /* Pods-HelloRxTests.debug.xcconfig */,
+				E710E121677B3067E1236DAC /* Pods-HelloRxTests.release.xcconfig */,
+				03DDA9EF665139FF08198E80 /* Pods-HelloRxUITests.debug.xcconfig */,
+				AB3BAA4B8F2CFBD8B8331BD5 /* Pods-HelloRxUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D1FE65521A42D6500EC8CEC /* HelloRx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D1FE67E21A42D6700EC8CEC /* Build configuration list for PBXNativeTarget "HelloRx" */;
+			buildPhases = (
+				41C7143782A8368BB15D6EE9 /* [CP] Check Pods Manifest.lock */,
+				2D1FE65221A42D6500EC8CEC /* Sources */,
+				2D1FE65321A42D6500EC8CEC /* Frameworks */,
+				2D1FE65421A42D6500EC8CEC /* Resources */,
+				8771019E33CBE860B25F44AA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloRx;
+			productName = HelloRx;
+			productReference = 2D1FE65621A42D6500EC8CEC /* HelloRx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D1FE66921A42D6700EC8CEC /* HelloRxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D1FE68121A42D6700EC8CEC /* Build configuration list for PBXNativeTarget "HelloRxTests" */;
+			buildPhases = (
+				1AF9D032CCDA1A5861619012 /* [CP] Check Pods Manifest.lock */,
+				2D1FE66621A42D6700EC8CEC /* Sources */,
+				2D1FE66721A42D6700EC8CEC /* Frameworks */,
+				2D1FE66821A42D6700EC8CEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D1FE66C21A42D6700EC8CEC /* PBXTargetDependency */,
+			);
+			name = HelloRxTests;
+			productName = HelloRxTests;
+			productReference = 2D1FE66A21A42D6700EC8CEC /* HelloRxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D1FE67421A42D6700EC8CEC /* HelloRxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D1FE68421A42D6700EC8CEC /* Build configuration list for PBXNativeTarget "HelloRxUITests" */;
+			buildPhases = (
+				5853AD5735D3F5DEE1CEFD01 /* [CP] Check Pods Manifest.lock */,
+				2D1FE67121A42D6700EC8CEC /* Sources */,
+				2D1FE67221A42D6700EC8CEC /* Frameworks */,
+				2D1FE67321A42D6700EC8CEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D1FE67721A42D6700EC8CEC /* PBXTargetDependency */,
+			);
+			name = HelloRxUITests;
+			productName = HelloRxUITests;
+			productReference = 2D1FE67521A42D6700EC8CEC /* HelloRxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D1FE64E21A42D6500EC8CEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = SwiftMan;
+				TargetAttributes = {
+					2D1FE65521A42D6500EC8CEC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2D1FE66921A42D6700EC8CEC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2D1FE65521A42D6500EC8CEC;
+					};
+					2D1FE67421A42D6700EC8CEC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2D1FE65521A42D6500EC8CEC;
+					};
+				};
+			};
+			buildConfigurationList = 2D1FE65121A42D6500EC8CEC /* Build configuration list for PBXProject "HelloRx" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D1FE64D21A42D6500EC8CEC;
+			productRefGroup = 2D1FE65721A42D6500EC8CEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D1FE65521A42D6500EC8CEC /* HelloRx */,
+				2D1FE66921A42D6700EC8CEC /* HelloRxTests */,
+				2D1FE67421A42D6700EC8CEC /* HelloRxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D1FE65421A42D6500EC8CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1FE66421A42D6700EC8CEC /* LaunchScreen.storyboard in Resources */,
+				2D1FE66121A42D6700EC8CEC /* Assets.xcassets in Resources */,
+				2D1FE65F21A42D6500EC8CEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D1FE66821A42D6700EC8CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D1FE67321A42D6700EC8CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AF9D032CCDA1A5861619012 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloRxTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41C7143782A8368BB15D6EE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloRx-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5853AD5735D3F5DEE1CEFD01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloRxUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8771019E33CBE860B25F44AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HelloRx/Pods-HelloRx-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloRx/Pods-HelloRx-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D1FE65221A42D6500EC8CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1FE65C21A42D6500EC8CEC /* ViewController.swift in Sources */,
+				2D1FE65A21A42D6500EC8CEC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D1FE66621A42D6700EC8CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1FE66F21A42D6700EC8CEC /* HelloRxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D1FE67121A42D6700EC8CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1FE67A21A42D6700EC8CEC /* HelloRxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D1FE66C21A42D6700EC8CEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D1FE65521A42D6500EC8CEC /* HelloRx */;
+			targetProxy = 2D1FE66B21A42D6700EC8CEC /* PBXContainerItemProxy */;
+		};
+		2D1FE67721A42D6700EC8CEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D1FE65521A42D6500EC8CEC /* HelloRx */;
+			targetProxy = 2D1FE67621A42D6700EC8CEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D1FE65D21A42D6500EC8CEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D1FE65E21A42D6500EC8CEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D1FE66221A42D6700EC8CEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D1FE66321A42D6700EC8CEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D1FE67C21A42D6700EC8CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D1FE67D21A42D6700EC8CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D1FE67F21A42D6700EC8CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0F4541D5C1289C97B9DDC07 /* Pods-HelloRx.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8GQ96R6SK;
+				INFOPLIST_FILE = HelloRx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftman.HelloRx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D1FE68021A42D6700EC8CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9452A4B151C396165F759AA6 /* Pods-HelloRx.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8GQ96R6SK;
+				INFOPLIST_FILE = HelloRx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftman.HelloRx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D1FE68221A42D6700EC8CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE55614C2A54D95D9B6C1B82 /* Pods-HelloRxTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8GQ96R6SK;
+				INFOPLIST_FILE = HelloRxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftman.HelloRxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloRx.app/HelloRx";
+			};
+			name = Debug;
+		};
+		2D1FE68321A42D6700EC8CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E710E121677B3067E1236DAC /* Pods-HelloRxTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8GQ96R6SK;
+				INFOPLIST_FILE = HelloRxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftman.HelloRxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloRx.app/HelloRx";
+			};
+			name = Release;
+		};
+		2D1FE68521A42D6700EC8CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03DDA9EF665139FF08198E80 /* Pods-HelloRxUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8GQ96R6SK;
+				INFOPLIST_FILE = HelloRxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftman.HelloRxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloRx;
+			};
+			name = Debug;
+		};
+		2D1FE68621A42D6700EC8CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB3BAA4B8F2CFBD8B8331BD5 /* Pods-HelloRxUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8GQ96R6SK;
+				INFOPLIST_FILE = HelloRxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftman.HelloRxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloRx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D1FE65121A42D6500EC8CEC /* Build configuration list for PBXProject "HelloRx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D1FE67C21A42D6700EC8CEC /* Debug */,
+				2D1FE67D21A42D6700EC8CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D1FE67E21A42D6700EC8CEC /* Build configuration list for PBXNativeTarget "HelloRx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D1FE67F21A42D6700EC8CEC /* Debug */,
+				2D1FE68021A42D6700EC8CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D1FE68121A42D6700EC8CEC /* Build configuration list for PBXNativeTarget "HelloRxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D1FE68221A42D6700EC8CEC /* Debug */,
+				2D1FE68321A42D6700EC8CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D1FE68421A42D6700EC8CEC /* Build configuration list for PBXNativeTarget "HelloRxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D1FE68521A42D6700EC8CEC /* Debug */,
+				2D1FE68621A42D6700EC8CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D1FE64E21A42D6500EC8CEC /* Project object */;
+}
