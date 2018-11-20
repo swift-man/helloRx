@@ -6,8 +6,8 @@ target 'HelloRx' do
   use_frameworks!
 
   # Pods for HelloRx
-  pod 'RxSwift'
-  pod 'RxCocoa'
+#  pod 'RxSwift'
+#  pod 'RxCocoa'
 
   target 'HelloRxTests' do
     inherit! :search_paths
