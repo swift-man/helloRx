@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		282D181FB1DCBF60A96FCD04 /* Pods_HelloRxUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130B20A19A406A3350F48266 /* Pods_HelloRxUITests.framework */; };
 		2D1FE65A21A42D6500EC8CEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1FE65921A42D6500EC8CEC /* AppDelegate.swift */; };
-		2D1FE65C21A42D6500EC8CEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1FE65B21A42D6500EC8CEC /* ViewController.swift */; };
 		2D1FE65F21A42D6500EC8CEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1FE65D21A42D6500EC8CEC /* Main.storyboard */; };
 		2D1FE66121A42D6700EC8CEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D1FE66021A42D6700EC8CEC /* Assets.xcassets */; };
 		2D1FE66421A42D6700EC8CEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1FE66221A42D6700EC8CEC /* LaunchScreen.storyboard */; };
 		2D1FE66F21A42D6700EC8CEC /* HelloRxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1FE66E21A42D6700EC8CEC /* HelloRxTests.swift */; };
 		2D1FE67A21A42D6700EC8CEC /* HelloRxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1FE67921A42D6700EC8CEC /* HelloRxUITests.swift */; };
+		2DAFE8AA21A4366600C0A8F1 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAFE8A921A4366600C0A8F1 /* MasterViewController.swift */; };
+		2DAFE8AC21A4367D00C0A8F1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAFE8AB21A4367D00C0A8F1 /* DetailViewController.swift */; };
 		5E33D953E302042B45B6BA99 /* Pods_HelloRxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE947325368A922B1D1B01DB /* Pods_HelloRxTests.framework */; };
 		95C162CE1317D6E0D32064F1 /* Pods_HelloRx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EEEF5B73DF48CD593BE3362 /* Pods_HelloRx.framework */; };
 /* End PBXBuildFile section */
@@ -41,7 +42,6 @@
 		130B20A19A406A3350F48266 /* Pods_HelloRxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloRxUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D1FE65621A42D6500EC8CEC /* HelloRx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloRx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D1FE65921A42D6500EC8CEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2D1FE65B21A42D6500EC8CEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2D1FE65E21A42D6500EC8CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D1FE66021A42D6700EC8CEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D1FE66321A42D6700EC8CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +52,8 @@
 		2D1FE67521A42D6700EC8CEC /* HelloRxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloRxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D1FE67921A42D6700EC8CEC /* HelloRxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloRxUITests.swift; sourceTree = "<group>"; };
 		2D1FE67B21A42D6700EC8CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DAFE8A921A4366600C0A8F1 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		2DAFE8AB21A4367D00C0A8F1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		3EEEF5B73DF48CD593BE3362 /* Pods_HelloRx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloRx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9452A4B151C396165F759AA6 /* Pods-HelloRx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRx.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloRx/Pods-HelloRx.release.xcconfig"; sourceTree = "<group>"; };
 		AB3BAA4B8F2CFBD8B8331BD5 /* Pods-HelloRxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRxUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloRxUITests/Pods-HelloRxUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -109,7 +111,9 @@
 				C4A0EE7525494758603AEB81 /* Pods */,
 				104DF7202A4840AB14040479 /* Frameworks */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		2D1FE65721A42D6500EC8CEC /* Products */ = {
 			isa = PBXGroup;
@@ -125,7 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				2D1FE65921A42D6500EC8CEC /* AppDelegate.swift */,
-				2D1FE65B21A42D6500EC8CEC /* ViewController.swift */,
+				2DAFE8AD21A4368100C0A8F1 /* Controller */,
 				2D1FE65D21A42D6500EC8CEC /* Main.storyboard */,
 				2D1FE66021A42D6700EC8CEC /* Assets.xcassets */,
 				2D1FE66221A42D6700EC8CEC /* LaunchScreen.storyboard */,
@@ -150,6 +154,15 @@
 				2D1FE67B21A42D6700EC8CEC /* Info.plist */,
 			);
 			path = HelloRxUITests;
+			sourceTree = "<group>";
+		};
+		2DAFE8AD21A4368100C0A8F1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2DAFE8A921A4366600C0A8F1 /* MasterViewController.swift */,
+				2DAFE8AB21A4367D00C0A8F1 /* DetailViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		C4A0EE7525494758603AEB81 /* Pods */ = {
@@ -371,6 +384,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HelloRx/Pods-HelloRx-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Down/Down.framework",
 				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
@@ -379,6 +393,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Down.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
@@ -395,8 +410,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D1FE65C21A42D6500EC8CEC /* ViewController.swift in Sources */,
 				2D1FE65A21A42D6500EC8CEC /* AppDelegate.swift in Sources */,
+				2DAFE8AA21A4366600C0A8F1 /* MasterViewController.swift in Sources */,
+				2DAFE8AC21A4367D00C0A8F1 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
